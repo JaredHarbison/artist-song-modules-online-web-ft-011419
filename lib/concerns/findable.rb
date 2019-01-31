@@ -4,7 +4,7 @@ module Findable
     @@all.detect {|a| a.name == name}
   end 
   
-  def all
+  def self.all
     @@all
   end 
   
